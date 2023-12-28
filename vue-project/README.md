@@ -1,19 +1,20 @@
-# vue-project
+## Короткий опис
 
-## Project setup
-```
-npm install
-```
+Трекер задач, який демонструє виконаннання всіх команд CRUD:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- GET: отримати задачі з бази даних;
+- PUT: змінити значення нагадувача reminder подвійним натисненням на задачу;
+- DELETE: видалити задачу;
+- POST: додати задачу (вводяться поля опису задачі, дата, встановлюється нагадувач);
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Встановлення пакетів
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Виконайте `npm install` для встановлення усіх необхідних пакетів.
+
+## Розгортання бази даних
+
+Виконайте `npm run server` аби розгорнути базу даних.
+
+## Налаштування серверу
+
+Запустіть `ng serve` для dev сервера. Перейдіть до `http://localhost:8080/`. Програма автоматично перезавантажиться, якщо ви зміните будь-який з вихідних файлів.
